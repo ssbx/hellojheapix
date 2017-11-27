@@ -6,7 +6,7 @@ public class HelloHealpix {
 	
     public static void main(String[] args) {
 	long nside = 2048;
-	Scheme scheme = Scheme.RING;
+	Scheme scheme = Scheme.NESTED;
 	HealpixBase hp = null;
 	try {
 		hp = new HealpixBase(nside, scheme);
